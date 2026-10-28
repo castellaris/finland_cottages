@@ -1,0 +1,724 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Lake Finland — коттеджи у озера Сайма</title>
+  <meta
+    name="description"
+    content="Отдых в Финляндии для туристов из Казахстана: коттеджи у озера Сайма, сауна и природа."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="top">
+  <a class="logo" href="#top">LAKE FINLAND</a>
+
+  <nav class="nav" id="nav" aria-label="Основное меню">
+    <a href="#concept" data-i18n="nav_about">О базе</a>
+    <a href="#prices" data-i18n="nav_cabins">Коттеджи</a>
+    <a href="#audience" data-i18n="nav_guests">Для кого</a>
+    <a href="#partners" data-i18n="nav_partners">Партнёрам</a>
+    <a href="#program" data-i18n="nav_program">Программа</a>
+    <a href="#faq" data-i18n="nav_faq">Вопросы</a>
+    <a href="#booking" class="nav-cta" data-i18n="nav_book">
+      Забронировать
+    </a>
+  </nav>
+
+  <button
+    class="burger"
+    id="burger"
+    type="button"
+    aria-label="Открыть меню"
+    aria-expanded="false"
+    aria-controls="nav"
+  >
+    <span></span>
+    <span></span>
+  </button>
+
+  <label class="language-picker">
+    <span class="sr-only" data-i18n="language_label">Язык сайта</span>
+    <select id="language" name="language" aria-label="Language">
+      <option value="ru">RU</option>
+      <option value="kk">ҚАЗ</option>
+      <option value="en">EN</option>
+      <option value="fi">FI</option>
+    </select>
+  </label>
+</header>
+
+<main id="top">
+
+  <!-- Главный экран -->
+  <section class="hero">
+    <figure class="hero-img ph ph-lake">
+      <img
+        src="images/go_north_6_008.jpg"
+        alt="Деревянный коттедж на берегу озера на закате"
+        data-i18n-alt="hero_alt"
+        onerror="this.remove()"
+      >
+    </figure>
+
+    <div class="hero-text">
+      <p class="place" data-i18n="hero_place">
+        Савонлинна, Финляндия · Отдых для гостей из Казахстана
+      </p>
+
+      <h1 data-i18n="hero_title">
+        Ваш уютный дом среди финских озёр
+      </h1>
+
+      <p class="lead" data-i18n="hero_lead">
+        Откройте Финляндию в собственном деревянном коттедже у воды.
+        Сауна, северная природа и помощь с планированием поездки
+        через туристических партнёров.
+      </p>
+
+      <ul class="checks">
+        <li data-i18n="hero_point1">Коттеджи от €90 за ночь</li>
+        <li data-i18n="hero_point2">Варианты для 2–6 гостей</li>
+        <li data-i18n="hero_point3">
+          Отдельный отдых для пар, семей и друзей
+        </li>
+      </ul>
+
+      <a href="#prices" class="btn" data-i18n="hero_button">
+        Выбрать коттедж
+      </a>
+
+      <p class="note" data-i18n="hero_note">
+        Путешествие из Казахстана — ближе к природе Финляндии.
+      </p>
+    </div>
+  </section>
+
+  <!-- О базе отдыха -->
+  <section class="section" id="concept">
+    <div class="wrap two">
+      <figure class="ph ph-forest tall">
+        <img
+          src="/images/src-37071.jpg"
+          alt="Красные коттеджи среди сосен у озера"
+          data-i18n-alt="concept_alt"
+          onerror="this.remove()"
+        >
+      </figure>
+
+      <div>
+        <h2 data-i18n="concept_title">
+          База отдыха у озера Сайма
+        </h2>
+
+        <dl class="facts">
+          <dt data-i18n="fact_location_title">Расположение</dt>
+          <dd data-i18n="fact_location">
+            Регион Южное Саво, окрестности города Савонлинна,
+            озеро Сайма.
+          </dd>
+
+          <dt data-i18n="fact_format_title">Формат</dt>
+          <dd data-i18n="fact_format">
+            Учебная концепция: 8 деревянных коттеджей,
+            береговая зона, сауна и прокат лодок.
+          </dd>
+
+          <dt data-i18n="fact_capacity_title">Вместимость</dt>
+          <dd data-i18n="fact_capacity">
+            От 2 до 6 человек в зависимости от типа коттеджа.
+          </dd>
+
+          <dt data-i18n="fact_season_title">Сезон</dt>
+          <dd data-i18n="fact_season">
+            Круглый год: летом — прогулки и рыбалка,
+            зимой — сауна и снежные развлечения.
+          </dd>
+        </dl>
+
+        <p class="usp" data-i18n="concept_usp">
+          Отдельный коттедж, оборудованная кухня и отдых у озера —
+          альтернатива стандартному гостиничному номеру.
+        </p>
+
+        <ul class="plain">
+          <li data-i18n="concept_point1">
+            Приватность и комфорт для самостоятельного отдыха
+          </li>
+          <li data-i18n="concept_point2">
+            Сауна и оборудованная кухня
+          </li>
+          <li data-i18n="concept_point3">
+            Рыбалка, плавание и лодки в сезон
+          </li>
+          <li data-i18n="concept_point4">
+            Размещение для пар, семей и компаний до 6 человек
+          </li>
+          <li data-i18n="concept_point5">
+            Камин и прогулки по лесу зимой
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Коттеджи и цены -->
+  <section class="section tint" id="prices">
+    <div class="wrap">
+      <h2 data-i18n="prices_title">Коттеджи и цены</h2>
+
+      <p class="sub" data-i18n="prices_note">
+        Цены указаны для учебного макета и не являются действующими
+        тарифами реальной базы.
+      </p>
+
+      <div class="cabins">
+        <article class="cabin">
+          <figure class="ph ph-forest">
+            <img
+              src="images/364928359.jpg"
+              alt="Forest Cabin"
+              onerror="this.remove()"
+            >
+          </figure>
+
+          <h3>Forest Cabin</h3>
+          <p class="meta" data-i18n="forest_meta">2 гостя · 25 м²</p>
+
+          <p class="price">
+            €90 <span data-i18n="per_night">за ночь</span>
+          </p>
+
+          <ul class="plain">
+            <li data-i18n="forest_1">Двуспальная кровать</li>
+            <li data-i18n="forest_2">Мини-кухня и санузел</li>
+            <li data-i18n="forest_3">Терраса с видом на лес</li>
+            <li data-i18n="forest_4">Доступ к общей сауне</li>
+          </ul>
+
+          <button
+            type="button"
+            class="btn ghost pick"
+            data-cabin="forest"
+            data-i18n="choose_forest"
+          >
+            Выбрать Forest Cabin
+          </button>
+        </article>
+
+        <article class="cabin featured">
+          <figure class="ph ph-lake">
+            <img
+              src="images/Finland_summer_cottage_01-1068x712.jpg"
+              alt="Lake Cabin"
+              onerror="this.remove()"
+            >
+          </figure>
+
+          <h3>Lake Cabin</h3>
+          <p class="meta" data-i18n="lake_meta">4 гостя · 45 м²</p>
+
+          <p class="price">
+            €140 <span data-i18n="per_night">за ночь</span>
+          </p>
+
+          <ul class="plain">
+            <li data-i18n="lake_1">Две спальные зоны</li>
+            <li data-i18n="lake_2">Полноценная кухня</li>
+            <li data-i18n="lake_3">Собственная сауна</li>
+            <li data-i18n="lake_4">Терраса и зона барбекю</li>
+          </ul>
+
+          <button
+            type="button"
+            class="btn pick"
+            data-cabin="lake"
+            data-i18n="choose_lake"
+          >
+            Выбрать Lake Cabin
+          </button>
+        </article>
+
+        <article class="cabin">
+          <figure class="ph ph-forest">
+            <img
+              src="images/caption.jpg"
+              alt="Family Lodge"
+              onerror="this.remove()"
+            >
+          </figure>
+
+          <h3>Family Lodge</h3>
+          <p class="meta" data-i18n="family_meta">6 гостей · 70 м²</p>
+
+          <p class="price">
+            €210 <span data-i18n="per_night">за ночь</span>
+          </p>
+
+          <ul class="plain">
+            <li data-i18n="family_1">Три спальные зоны</li>
+            <li data-i18n="family_2">Гостиная с камином</li>
+            <li data-i18n="family_3">
+              Полностью оборудованная кухня
+            </li>
+            <li data-i18n="family_4">
+              Сауна и просторная терраса
+            </li>
+          </ul>
+
+          <button
+            type="button"
+            class="btn ghost pick"
+            data-cabin="family"
+            data-i18n="choose_family"
+          >
+            Выбрать Family Lodge
+          </button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Для кого подходит отдых -->
+  <section class="section" id="audience">
+    <div class="wrap">
+      <h2 data-i18n="audience_title">
+        Отдых, который подходит именно вам
+      </h2>
+
+      <p class="sub" data-i18n="audience_sub">
+        Мы особенно ориентируем проект на путешественников из
+        Казахстана, которые хотят открыть для себя природу и спокойный
+        ритм Финляндии.
+      </p>
+
+      <div class="aud">
+        <article>
+          <h3 data-i18n="aud_couples_title">Пары</h3>
+          <p data-i18n="aud_couples">
+            Приватность, сауна, красивые виды и выходные вдвоём.
+            Подходит Forest Cabin.
+          </p>
+          <blockquote data-i18n="aud_couples_quote">
+            Ваше путешествие вдвоём: уютный коттедж и закаты над озером.
+          </blockquote>
+        </article>
+
+        <article>
+          <h3 data-i18n="aud_families_title">Семьи с детьми</h3>
+          <p data-i18n="aud_families">
+            Кухня, отдельные спальные места и пространство для
+            семейного отдыха. Подходит Family Lodge.
+          </p>
+          <blockquote data-i18n="aud_families_quote">
+            Семейный отпуск на природе — в собственном коттедже у воды.
+          </blockquote>
+        </article>
+
+        <article>
+          <h3 data-i18n="aud_friends_title">Компании друзей</h3>
+          <p data-i18n="aud_friends">
+            Коттедж, барбекю, сауна и общая зона отдыха.
+            Подходит Lake Cabin или Family Lodge.
+          </p>
+          <blockquote data-i18n="aud_friends_quote">
+            Соберите друзей и проведите несколько дней среди финских озёр.
+          </blockquote>
+        </article>
+
+        <article>
+          <h3 data-i18n="aud_nature_title">Любители природы</h3>
+          <p data-i18n="aud_nature">
+            Лесные маршруты, рыбалка, гребля и возможность отдохнуть
+            от городской суеты.
+          </p>
+          <blockquote data-i18n="aud_nature_quote">
+            Откройте северную природу Финляндии в своём темпе.
+          </blockquote>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Сотрудничество -->
+  <section class="section tint" id="partners">
+    <div class="wrap two">
+      <div>
+        <h2 data-i18n="partners_title">
+          Сотрудничество с туристическими агентствами Казахстана
+        </h2>
+
+        <p data-i18n="partners_text">
+          Проект предусматривает развитие партнёрских отношений с
+          туристическими агентствами Казахстана, в том числе на основании
+          меморандумов о взаимопонимании. Через партнёров путешественники
+          смогут получать информацию о размещении и планировать поездку
+          в Финляндию.
+        </p>
+
+        <p data-i18n="partners_note">
+          Информация о конкретных агентствах, подписанных меморандумах
+          и доступных пакетах публикуется после официального подтверждения.
+        </p>
+      </div>
+
+      <div>
+        <h3 data-i18n="partners_benefits_title">
+          Для гостей из Казахстана
+        </h3>
+
+        <ul class="plain">
+          <li data-i18n="partners_benefit1">
+            Понятная информация о вариантах размещения и стоимости
+          </li>
+          <li data-i18n="partners_benefit2">
+            Возможность обратиться к своему туристическому агентству
+          </li>
+          <li data-i18n="partners_benefit3">
+            Поддержка при планировании маршрута — в пределах услуг
+            выбранного партнёра
+          </li>
+          <li data-i18n="partners_benefit4">
+            Информация на русском, казахском и английском языках
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Форма бронирования -->
+  <section class="section tint" id="booking">
+    <div class="wrap narrow">
+      <h2 data-i18n="booking_title">Подобрать коттедж</h2>
+
+      <p class="sub" data-i18n="booking_sub">
+        Выберите даты, количество гостей и тип коттеджа, чтобы увидеть
+        предварительную стоимость. После этого вы сможете отправить
+        заявку на бронирование.
+      </p>
+
+      <form
+        id="form"
+        class="form"
+        action="send-booking.php"
+        method="post"
+        accept-charset="UTF-8"
+        novalidate
+      >
+        <div class="row">
+          <label>
+            <span data-i18n="checkin_label">Дата заезда</span>
+            <input
+              type="date"
+              id="checkin"
+              name="checkin"
+              required
+            >
+          </label>
+
+          <label>
+            <span data-i18n="checkout_label">Дата выезда</span>
+            <input
+              type="date"
+              id="checkout"
+              name="checkout"
+              required
+            >
+          </label>
+        </div>
+
+        <fieldset>
+          <legend data-i18n="guests_legend">Количество гостей</legend>
+
+          <label class="opt">
+            <input
+              type="radio"
+              name="guests"
+              value="2"
+              checked
+              required
+            >
+            <span data-i18n="guests_2">2 гостя</span>
+          </label>
+
+          <label class="opt">
+            <input type="radio" name="guests" value="4">
+            <span data-i18n="guests_4">3–4 гостя</span>
+          </label>
+
+          <label class="opt">
+            <input type="radio" name="guests" value="6">
+            <span data-i18n="guests_6">5–6 гостей</span>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend data-i18n="cabin_legend">Тип коттеджа</legend>
+
+          <label class="opt">
+            <input
+              type="radio"
+              name="cabin"
+              value="forest"
+              data-price="90"
+              required
+            >
+            <span data-i18n="form_forest">
+              Forest Cabin — €90/ночь
+            </span>
+          </label>
+
+          <label class="opt">
+            <input
+              type="radio"
+              name="cabin"
+              value="lake"
+              data-price="140"
+              checked
+            >
+            <span data-i18n="form_lake">
+              Lake Cabin — €140/ночь
+            </span>
+          </label>
+
+          <label class="opt">
+            <input
+              type="radio"
+              name="cabin"
+              value="family"
+              data-price="210"
+            >
+            <span data-i18n="form_family">
+              Family Lodge — €210/ночь
+            </span>
+          </label>
+        </fieldset>
+
+        <p class="hint" id="hint" role="status" aria-live="polite"></p>
+
+        <label>
+          <span data-i18n="email_label">Электронная почта</span>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+            autocomplete="email"
+            inputmode="email"
+            required
+          >
+        </label>
+
+        <!-- Язык заявки отправляется серверу отдельно -->
+        <input
+          type="hidden"
+          id="form-language"
+          name="language"
+          value="ru"
+        >
+
+        <p
+          class="error"
+          id="error"
+          role="alert"
+          aria-live="assertive"
+        ></p>
+
+        <div class="total">
+          <div>
+            <span class="meta" data-i18n="total_label">
+              Предварительная стоимость
+            </span>
+            <strong id="total">€0</strong>
+          </div>
+
+          <span class="meta" id="summary"></span>
+        </div>
+
+        <button
+          type="submit"
+          id="submit-booking"
+          class="btn"
+          data-i18n="submit_button"
+        >
+          Подготовить заявку
+        </button>
+
+        <p
+          class="success"
+          id="success"
+          role="status"
+          aria-live="polite"
+          hidden
+        ></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Программа отдыха -->
+  <section class="section" id="program">
+    <div class="wrap">
+      <h2 data-i18n="program_title">
+        Программа отдыха на три дня
+      </h2>
+
+      <div class="days">
+        <article>
+          <figure class="ph ph-lake">
+            <img
+              src="images/Kayaking-Canoeing-Lake-Saimaa-kayaking-routes-canoeing-routes-canoe-kayak-savonlinna-kolovesi-national-park-893x893.jpg"
+              alt="Прибытие к коттеджу"
+              onerror="this.remove()"
+            >
+          </figure>
+
+          <h3 data-i18n="day1_title">День 1 — заселение и отдых</h3>
+          <ul class="plain">
+            <li data-i18n="day1_1">15:00 — заселение в коттедж</li>
+            <li data-i18n="day1_2">16:00 — прогулка по берегу озера</li>
+            <li data-i18n="day1_3">18:00 — ужин на террасе</li>
+            <li data-i18n="day1_4">20:00 — вечерняя сауна</li>
+          </ul>
+        </article>
+
+        <article>
+          <figure class="ph ph-forest">
+            <img
+              src="images/Saunaravintola-Kiulu-has-a-beautiful-nightview-of-nature-and-lake.webp"
+              alt="Прогулка на лодке"
+              onerror="this.remove()"
+            >
+          </figure>
+
+          <h3 data-i18n="day2_title">День 2 — активный отдых</h3>
+          <ul class="plain">
+            <li data-i18n="day2_1">09:00 — завтрак</li>
+            <li data-i18n="day2_2">10:00 — лодка или рыбалка</li>
+            <li data-i18n="day2_3">13:00 — пикник у озера</li>
+            <li data-i18n="day2_4">16:00 — прогулка по лесной тропе</li>
+            <li data-i18n="day2_5">19:00 — барбекю и отдых</li>
+          </ul>
+        </article>
+
+        <article>
+          <figure class="ph ph-lake">
+            <img
+              src="images/Saunaravintola-Kiulu-has-a-beautiful-nightview-of-nature-and-lake.webp"
+              alt="Лесная тропа у озера"
+              onerror="this.remove()"
+            >
+          </figure>
+
+          <h3 data-i18n="day3_title">День 3 — природа и отъезд</h3>
+          <ul class="plain">
+            <li data-i18n="day3_1">09:00 — завтрак на террасе</li>
+            <li data-i18n="day3_2">10:00 — фотопрогулка у берега</li>
+            <li data-i18n="day3_3">11:00 — сборы и выезд</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Часто задаваемые вопросы -->
+  <section class="section tint" id="faq">
+    <div class="wrap narrow">
+      <h2 data-i18n="faq_title">Частые вопросы</h2>
+
+      <details>
+        <summary data-i18n="faq_q1">
+          Что входит в стоимость?
+        </summary>
+        <p data-i18n="faq_a1">
+          Проживание, пользование кухней и базовой мебелью.
+          Доступ к сауне зависит от выбранного коттеджа.
+        </p>
+      </details>
+
+      <details>
+        <summary data-i18n="faq_q2">
+          Можно ли приехать с детьми?
+        </summary>
+        <p data-i18n="faq_a2">
+          Да, для семей предусмотрен Family Lodge на шесть человек.
+        </p>
+      </details>
+
+      <details>
+        <summary data-i18n="faq_q3">Можно ли рыбачить?</summary>
+        <p data-i18n="faq_a3">
+          Да, при соблюдении местных правил рыболовства.
+        </p>
+      </details>
+
+      <details>
+        <summary data-i18n="faq_q4">Есть ли Wi-Fi?</summary>
+        <p data-i18n="faq_a4">
+          Наличие Wi-Fi нужно подтвердить для реального объекта.
+        </p>
+      </details>
+
+      <details>
+        <summary data-i18n="faq_q5">
+          Можно ли с домашними животными?
+        </summary>
+        <p data-i18n="faq_a5">
+          По предварительному согласованию.
+        </p>
+      </details>
+
+      <details>
+        <summary data-i18n="faq_q6">
+          Как добраться из Казахстана?
+        </summary>
+        <p data-i18n="faq_a6">
+          Маршрут и требования к поездке следует уточнить перед
+          бронированием у официальных источников и выбранного
+          туристического агентства.
+        </p>
+      </details>
+
+      <details>
+        <summary data-i18n="faq_q7">
+          Это действующая база отдыха?
+        </summary>
+        <p data-i18n="faq_a7">
+          Нет. Это учебный макет; цены, вместимость и партнёрские
+          условия необходимо подтвердить перед реальным использованием.
+        </p>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <strong>LAKE FINLAND</strong>
+    <p data-i18n="footer_text">
+      Савонлинна, Южное Саво, Финляндия. Учебная концепция;
+      данные о партнёрстве требуют подтверждения.
+    </p>
+  </div>
+</footer>
+
+<!-- Основная логика: перевод, выбор коттеджа и расчёт стоимости -->
+<script src="script.js"></script>
+
+<!-- Отправка заявки на сервер без перезагрузки страницы -->
+<script src="ajax.js"></script>
+
+</body>
+</html>
